@@ -17,9 +17,6 @@ class staging::params {
     }
     'windows': {
       $path      = $::staging_windir
-      $owner     = undef
-      $group     = undef
-      $mode      = '0755'
       $exec_path = $::path
     }
   }
